@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>chapter 43-48</h1>
+    <h1>Q1)</h1>
+    <a href="#" onclick="alert('welcome')"> click here to show alert</a>
+    <br /><br />
+    <h1>Q2)</h1>
+    <img
+      src="./images/mobile1.jpg"
+      onclick="alert('you clicked on mobile image')"
+    />
+    <br />
+    <img
+      src="./images/mobile2.jpg"
+      onclick="alert('you clicked on mobile image')"
+    />
+    <br />
+    <img
+      src="./images/mobile1.jpg"
+      onclick="alert('you clicked on mobile image')"
+    />
+    <br />
+    <img
+      src="./images/mobile2.jpg"
+      onclick="alert('you clicked on mobile image')"
+    />
+
+    <h1>Q4)</h1>
+    <img
+      src="./images/scen1.jpg"
+      onMouseover="src='./images/scen2.jpg'"
+      onMouseout="src='./images/scen1.jpg'"
+    />
+
+    <h1>Q5)</h1>
+    <h3>COUNTER:</h3>
+    <input type="text" value="0" id="cnt" />
+    <button onclick="inc_val()">Increase Value</button>
+    <button onclick="dec_val()">Decrease Value</button>
+
+    <h1>chapter 49-52</h1>
+    <h1>Q1)</h1>
+    <form id="f_submit">
+      <input type="text" id="u_name" placeholder="enter your user name" />
+      <input type="text" id="u_age" placeholder="enter your age" />
+      <input type="text" id="u_cell" placeholder="enter your cell no" />
+      <input type="submit" value="submit" />
+    </form>
+    <h1>Your input details</h1>
+    <h1 id="y_name"></h1>
+    <h1 id="y_age"></h1>
+    <h1 id="y_cell"></h1>
+
+    <h1>Q2)</h1>
+    <div class="div1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. A reprehenderit
+      asperiores aliquam,
+    </div>
+    <p style="color: blue" onclick="chnPara()">Read More</p>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
